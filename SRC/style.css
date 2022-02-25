@@ -10,7 +10,6 @@
 	margin: 0;
 	padding: 0;
 	border: 0;
-	background-color: rgba(11, 23, 40, 100);
 }
 
 body {
@@ -35,10 +34,12 @@ h4 {
 
 #navigation {
 	font-size: 1em;
+	background-color: rgba(11, 23, 40, 100);
 }
 
 #main_content {
 	font-size: 1.2em;
+	background-color: rgba(11, 23, 40, 100);
 }
 
 #footer {
@@ -87,7 +88,18 @@ td {
 }
 
 .main {
-	background-color: rgba(11, 23, 40, 100);
 	display: flex;
 	justify-content: center;
+}
+
+.main__logo {
+	animation: rotation 32s linear infinite;
+}
+@keyframes rotation {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
 }
