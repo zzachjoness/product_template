@@ -59,14 +59,26 @@ td {
 	background-color: black;
 	color: whitesmoke;
 	display: flex;
-	justify-content: center;
+	height: 40px;
 }
 .nav__title {
-	color: lightseagreen;
+	display: flex;
+	justify-content: center;
+	align-self: center;
+	width: 100%;
+}
+
+.nav__title__logo {
+	justify-self: center;
 }
 
 .nav__hamburger {
-	display: absolute;
+	width: fit-content;
+	padding: 10px;
+	position: absolute;
+}
+
+.nav__hamburger__svg {
 	margin: 1em;
 	background-color: salmon;
 }
