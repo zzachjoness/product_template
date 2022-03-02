@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="210mm"
+   version="1.1"
+   viewBox="0 0 210 210"
+   id="svg25"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs29" />
+  <g
+     transform="matrix(.24621 0 0 .24407 140.89 65.277)"
+     fill="#ff2a7f"
+     fill-opacity=".15476"
+     stroke="#a04"
+     stroke-linejoin="bevel"
+     stroke-width="1.5875"
+     id="g22">
+    <path
+       d="m-29.586 99.909c-6.0551 33.661-71.325 68.938-93.287 42.72-43.221-51.596 58.458-202.6 114.95-166.01 35.242 22.825-79.274 68.241-65.176 107.79 5.1694 14.502 30.498 7.2691 43.512 15.497z"
+       style="paint-order:stroke markers fill"
+       id="path6" />
+    <path
+       d="m-19.178 200.46c-28.083 19.52-99.18-1.6881-96.171-35.756 5.9222-67.046 184.59-101.92 198.67-36.102 8.78 41.06-104.31-7.8018-122.31 30.133-6.5995 13.91 16.425 26.705 19.81 41.725z"
+       style="paint-order:stroke markers fill"
+       id="path8" />
+    <path
+       d="m-82.922 278.93c-33.661-6.0551-68.938-71.325-42.72-93.287 51.596-43.221 202.6 58.458 166.01 114.95-22.825 35.242-68.241-79.274-107.79-65.176-14.502 5.1694-7.2691 30.498-15.497 43.512z"
+       style="paint-order:stroke markers fill"
+       id="path10" />
+    <path
+       d="m-183.48 289.33c-19.52-28.083 1.6881-99.18 35.756-96.171 67.046 5.9222 101.92 184.59 36.102 198.67-41.06 8.78 7.8018-104.31-30.133-122.31-13.91-6.5995-26.705 16.425-41.725 19.81z"
+       style="paint-order:stroke markers fill"
+       id="path12" />
+    <path
+       d="m-261.94 225.59c6.0551-33.661 71.325-68.938 93.287-42.72 43.221 51.596-58.458 202.6-114.95 166.01-35.242-22.825 79.274-68.241 65.176-107.79-5.1694-14.502-30.498-7.2691-43.512-15.497z"
+       style="paint-order:stroke markers fill"
+       id="path14" />
+    <path
+       d="m-272.35 125.03c28.083-19.52 99.18 1.6881 96.171 35.756-5.9222 67.046-184.59 101.92-198.67 36.102-8.78-41.06 104.31 7.8018 122.31-30.133 6.5995-13.91-16.425-26.705-19.81-41.725z"
+       style="paint-order:stroke markers fill"
+       id="path16" />
+    <path
+       d="m-208.6 46.572c33.661 6.0551 68.938 71.325 42.72 93.287-51.596 43.221-202.6-58.458-166.01-114.95 22.825-35.242 68.241 79.274 107.79 65.176 14.502-5.1694 7.2691-30.498 15.497-43.512z"
+       style="paint-order:stroke markers fill"
+       id="path18" />
+    <path
+       d="m-108.05 36.165c19.52 28.083-1.6881 99.18-35.756 96.171-67.046-5.9222-101.92-184.59-36.102-198.67 41.06-8.78-7.8018 104.31 30.133 122.31 13.91 6.5995 26.705-16.425 41.725-19.81z"
+       style="paint-order:stroke markers fill"
+       id="path20" />
+  </g>
+   <path
+   id="circle1" fill="none"
+   d="M 105,105 m -85,0 a 85,85 0 1,1 170,0 a 85,85 0 1,1 -170,0" />
+      <text width="210">
+         <textPath xlink:href="#circle1">where do we go from here</textPath>
+         <animateMotion dur="5s" repeateCount="indefinite" rotate="auto"><mpath href="#circle1"/></animateMotion>
+      </text>
+      
+  <script type="text/javascript">![CDATA[
+   console.log('hi')
+  ]]</script>
+</svg>
+
+
+<!-- for text path <path
+   d="
+   M cx cy
+   m -r, 0
+   a r,r 0 1,1 (r *2),0
+   a r,r 0 1,1 -(r * 2),0
+   "
+/> -->

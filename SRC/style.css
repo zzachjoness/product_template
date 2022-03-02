@@ -90,11 +90,26 @@ td {
 
 .main {
 	display: flex;
-	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.secondary__logo {
+	margin-top: 1rem;
+	width: 350px;
+}
+
+.secondary__logo--text {
+	fill: whitesmoke;
+	font: bold 40px serif;
+}
+.secondary__logo__path {
+	/* animation: rotation 6s linear infinite; */
 }
 
 .main__logo {
 	animation: rotation 32s linear infinite;
+	width: 350px;
 }
 
 @keyframes rotation {
