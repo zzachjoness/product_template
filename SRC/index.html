@@ -112,6 +112,19 @@
 								style="paint-order: stroke markers fill"
 								id="path20"
 							/>
+							<animate
+								id="secondary__logo__animate__fill"
+								attributeName="fill"
+								dur="10s"
+								repeatCount="indefinite"
+							/>
+							<animate
+								id="secondary__logo__animate__stroke"
+								attributeName="stroke"
+								values="#004e8a;#0700bc;#004e8a"
+								dur="10s"
+								repeatCount="indefinite"
+							/>
 						</g>
 
 						<path id="circle1" class="secondary__logo__path" fill="none" />
@@ -122,7 +135,7 @@
 							</text>
 							<animateTransform
 								begin="0s"
-								dur="10s"
+								dur="20s"
 								type="rotate"
 								from="0 105 105"
 								to="360 105 105"
@@ -157,6 +170,29 @@
 			};
 			const cirlce = document.getElementById("circle1");
 			cirlce.setAttribute("d", roundness(105, 105, 72));
+			const fill = document.getElementById("secondary__logo__animate__fill");
+			const stroke = document.getElementById("secondary__logo__animate__stroke");
+			const colorHex = function () {
+				function getRandomInt(max) {
+					return Math.floor(Math.random() * max);
+				}
+				var hex = "#";
+				const letters = ["a", "b", "c", "d", "e", "f"];
+				const numbers = ["1", "2", "3", "4", "5", "6", "7", "8", "9"];
+				for (let i = 0; i < 6; i++) {
+					if (getRandomInt(2) === 1) {
+						hex += letters[getRandomInt(letters.length)];
+					} else {
+						hex += numbers[getRandomInt(numbers.length)];
+					}
+				}
+				return hex;
+			};
+			let startEnd = colorHex();
+			let middle = colorHex();
+			fill.setAttribute("values", `${startEnd};${middle};${startEnd}`);
+			stroke.setAttribute("values", `${middle};${startEnd};${middle}`);
+			console.log(colorHex());
 		</script>
 	</body>
 </html>
