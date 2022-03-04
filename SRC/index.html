@@ -115,14 +115,12 @@
 							<animate
 								id="secondary__logo__animate__fill"
 								attributeName="fill"
-								dur="10s"
 								repeatCount="indefinite"
 							/>
 							<animate
 								id="secondary__logo__animate__stroke"
 								attributeName="stroke"
 								values="#004e8a;#0700bc;#004e8a"
-								dur="10s"
 								repeatCount="indefinite"
 							/>
 						</g>
@@ -168,10 +166,7 @@
 					r * 2
 				},0 a ${r},${r} 0 1,1 -${r * 2},0`;
 			};
-			const cirlce = document.getElementById("circle1");
-			cirlce.setAttribute("d", roundness(105, 105, 72));
-			const fill = document.getElementById("secondary__logo__animate__fill");
-			const stroke = document.getElementById("secondary__logo__animate__stroke");
+
 			const colorHex = function () {
 				function getRandomInt(max) {
 					return Math.floor(Math.random() * max);
@@ -188,11 +183,23 @@
 				}
 				return hex;
 			};
+
+			const setDur = function (s) {
+				return `${s}s`;
+			};
+
+			const cirlce = document.getElementById("circle1");
+			const fill = document.getElementById("secondary__logo__animate__fill");
+			const stroke = document.getElementById("secondary__logo__animate__stroke");
 			let startEnd = colorHex();
 			let middle = colorHex();
+			const dur = setDur(3);
+
+			cirlce.setAttribute("d", roundness(105, 105, 72));
 			fill.setAttribute("values", `${startEnd};${middle};${startEnd}`);
 			stroke.setAttribute("values", `${middle};${startEnd};${middle}`);
-			console.log(colorHex());
+			fill.setAttribute("dur", dur);
+			stroke.setAttribute("dur", dur);
 		</script>
 	</body>
 </html>
