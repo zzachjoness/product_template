@@ -54,7 +54,9 @@
          type="fractalNoise"
          result="result7"
          seed="29"
-         id="feTurbulence4955" />
+         id="feTurbulence4955" >
+         <animate attributeName="baseFrequency" values="0.002;0.1;0.002" dur="5s" repeatCount="indefinite"/>
+      </feTurbulence>
       <feComposite
          in="SourceGraphic"
          operator="in"
