@@ -94,6 +94,14 @@ td {
 	align-items: center;
 }
 
+.fourth__logo {
+	background-color: whitesmoke;
+}
+
+.third__logo {
+	background-color: whitesmoke;
+}
+
 .secondary__logo {
 	margin-top: 1rem;
 	width: 350px;
