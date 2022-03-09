@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="210mm" height="210mm" version="1.1" viewBox="0 0 210 210" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="linearGradient17562">
+   <stop stop-color="#5fd" offset="0"/>
+   <stop stop-color="#cf0" stop-opacity="0" offset="1"/>
+  </linearGradient>
+  <radialGradient id="radialGradient23932" cx="-21.596" cy="788.97" r="73.973" gradientTransform="matrix(1.3312 -.37704 .81136 2.8646 -276.68 -1741.3)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient17562">
+    <animate attributeName="cx" values="-200;100" dur="5s" repeatCount="indefinite"/>
+  </radialGradient>
+  <radialGradient id="radialGradient23936" cx="-21.596" cy="788.97" r="73.973" gradientTransform="matrix(1.2079 .67468 -1.4518 2.5993 1637.4 -1485)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient17562">
+    <animate attributeName="cx" values="-200;100" dur="5s" repeatCount="indefinite"/>
+  </radialGradient>
+  <radialGradient id="radialGradient23940" cx="-21.596" cy="788.97" r="73.973" gradientTransform="matrix(.37704 1.3312 -2.8646 .81136 2809.6 49.672)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient17562">
+    <animate attributeName="cx" values="-200;100" dur="5s" repeatCount="indefinite"/>
+  </radialGradient>
+  <radialGradient id="radialGradient23944" cx="-21.596" cy="788.97" r="73.973" gradientTransform="matrix(-.67468 1.2079 -2.5993 -1.4518 2553.3 1963.7)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient17562">
+    <animate attributeName="cx" values="-200;100" dur="5s" repeatCount="indefinite"/>
+  </radialGradient>
+  <radialGradient id="radialGradient23948" cx="-21.596" cy="788.97" r="73.973" gradientTransform="matrix(-1.3312 .37704 -.81136 -2.8646 1018.6 3135.9)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient17562">
+    <animate attributeName="cx" values="-200;100" dur="5s" repeatCount="indefinite"/>
+  </radialGradient>
+  <radialGradient id="radialGradient23952" cx="-21.596" cy="788.97" r="73.973" gradientTransform="matrix(-1.2079 -.67468 1.4518 -2.5993 -895.42 2879.6)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient17562">
+    <animate attributeName="cx" values="-200;100" dur="5s" repeatCount="indefinite"/>
+  </radialGradient>
+  <radialGradient id="radialGradient23956" cx="-21.596" cy="788.97" r="73.973" gradientTransform="matrix(-.37704 -1.3312 2.8646 -.81136 -2067.6 1345)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient17562">
+    <animate attributeName="cx" values="-200;100" dur="5s" repeatCount="indefinite"/>
+  </radialGradient>
+  <radialGradient id="radialGradient23960" cx="-21.596" cy="788.97" r="73.973" gradientTransform="matrix(.67468 -1.2079 2.5993 1.4518 -1811.3 -569.07)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient17562">
+    <animate attributeName="cx" values="-200;100" dur="5s" repeatCount="indefinite"/>
+  </radialGradient>
+ </defs>
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g transform="matrix(.40573 0 0 .40573 -128.82 -108.69)" stroke-width="2.4647">
+  <rect x="317.5" y="267.89" width="517.59" height="517.59" style="paint-order:fill markers stroke"/>
+  <g transform="matrix(.83167 0 0 .83167 261.71 -53.769)" stroke-width="2.9636">
+   <path d="m363.64 567.43c-17.406-15.018-26.181-15.299-29.654-10.996-10.732 13.296 25.982 58.414 44.676 88.873 7.5261 12.262-72.722-69.197-69.154-55.152 1.5321 6.03 11.396 24.312 6.033 23.591-6.1808-0.83122-45.945-36.667-55.405-62.978-9.5015-26.427-21.977-70.677 2.6309-84.21 15.074-8.2896 27.337 28.264 44.424 26.267 25.95-3.0336 32.405-64.602 56.449-54.379 39.567 16.824 33.131 157.57-1e-5 128.98z" fill="url(#radialGradient23932)" style="paint-order:fill markers stroke"/>
+   <path d="m457.64 600.3c-1.6889-22.927-7.6948-29.331-13.193-28.744-16.99 1.8135-22.933 59.677-31.251 94.433-3.3487 13.992-2.493-100.35-9.9009-87.898-3.1805 5.3472-9.1331 25.249-12.415 20.947-3.7827-4.9582-6.5607-58.415 5.3551-83.709 11.968-25.406 34.436-65.516 61.406-57.685 16.52 4.7971-0.65523 39.316 12.839 49.986 20.495 16.204 68.594-22.767 78.367 1.4637 16.082 39.874-87.991 134.85-91.206 91.206z" fill="url(#radialGradient23936)" style="paint-order:fill markers stroke"/>
+   <path d="m500.86 690c15.018-17.406 15.299-26.181 10.996-29.654-13.296-10.732-58.414 25.982-88.873 44.676-12.262 7.5261 69.197-72.722 55.152-69.154-6.03 1.5321-24.312 11.396-23.591 6.033 0.83122-6.1808 36.667-45.945 62.978-55.405 26.427-9.5015 70.677-21.977 84.21 2.6309 8.2896 15.074-28.264 27.337-26.267 44.424 3.0336 25.95 64.602 32.405 54.379 56.449-16.824 39.567-157.57 33.131-128.98-1e-5z" fill="url(#radialGradient23940)" style="paint-order:fill markers stroke"/>
+   <path d="m468 783.99c22.927-1.6889 29.331-7.6948 28.744-13.193-1.8135-16.99-59.677-22.933-94.433-31.251-13.992-3.3487 100.35-2.493 87.898-9.9009-5.3472-3.1805-25.249-9.1331-20.947-12.415 4.9582-3.7827 58.415-6.5607 83.709 5.3551 25.406 11.968 65.516 34.436 57.685 61.406-4.7971 16.52-39.316-0.65523-49.986 12.839-16.204 20.495 22.767 68.594-1.4637 78.367-39.874 16.082-134.85-87.991-91.206-91.206z" fill="url(#radialGradient23944)" style="paint-order:fill markers stroke"/>
+   <path d="m378.3 827.21c17.406 15.018 26.181 15.299 29.654 10.996 10.732-13.296-25.982-58.414-44.676-88.873-7.5261-12.262 72.722 69.197 69.154 55.152-1.5321-6.03-11.396-24.312-6.033-23.591 6.1808 0.83122 45.945 36.667 55.405 62.978 9.5015 26.427 21.977 70.677-2.6309 84.21-15.074 8.2896-27.337-28.264-44.424-26.267-25.95 3.0336-32.405 64.602-56.449 54.379-39.567-16.824-33.131-157.57 1e-5 -128.98z" fill="url(#radialGradient23948)" style="paint-order:fill markers stroke"/>
+   <path d="m284.3 794.35c1.6889 22.927 7.6948 29.331 13.193 28.744 16.99-1.8135 22.933-59.677 31.251-94.433 3.3487-13.992 2.493 100.35 9.9009 87.898 3.1805-5.3472 9.1331-25.249 12.415-20.947 3.7827 4.9582 6.5607 58.415-5.3551 83.709-11.968 25.406-34.436 65.516-61.406 57.685-16.52-4.7971 0.65523-39.316-12.839-49.986-20.495-16.204-68.594 22.767-78.367-1.4637-16.082-39.874 87.991-134.85 91.206-91.206z" fill="url(#radialGradient23952)" style="paint-order:fill markers stroke"/>
+   <path d="m241.08 704.65c-15.018 17.406-15.299 26.181-10.996 29.654 13.296 10.732 58.414-25.982 88.873-44.676 12.262-7.5261-69.197 72.722-55.152 69.154 6.03-1.5321 24.312-11.396 23.591-6.033-0.83121 6.1808-36.667 45.945-62.978 55.405-26.427 9.5015-70.677 21.977-84.21-2.6309-8.2896-15.074 28.264-27.337 26.267-44.424-3.0336-25.95-64.602-32.405-54.379-56.449 16.824-39.567 157.57-33.131 128.98 0z" fill="url(#radialGradient23956)" style="paint-order:fill markers stroke"/>
+   <path d="m273.94 610.66c-22.927 1.6889-29.331 7.6948-28.744 13.193 1.8135 16.99 59.677 22.933 94.433 31.251 13.992 3.3487-100.35 2.493-87.898 9.9009 5.3472 3.1805 25.249 9.1331 20.947 12.415-4.9582 3.7827-58.415 6.5607-83.709-5.3551-25.406-11.968-65.516-34.436-57.685-61.406 4.7971-16.52 39.316 0.65523 49.986-12.839 16.204-20.495-22.767-68.594 1.4637-78.367 39.874-16.082 134.85 87.991 91.206 91.206z" fill="url(#radialGradient23960)" style="paint-order:fill markers stroke"/>
+  </g>
+ </g>
+</svg>

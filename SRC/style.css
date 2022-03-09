@@ -100,11 +100,11 @@ td {
 
 .third__logo {
 	background-color: whitesmoke;
+	max-width: 100%;
 }
 
 .secondary__logo {
 	margin-top: 1rem;
-	width: 350px;
 }
 
 .secondary__logo--text {
