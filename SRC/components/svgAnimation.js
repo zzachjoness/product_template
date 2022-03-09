@@ -35,12 +35,31 @@ const setDur = function (s) {
 const cirlce = document.getElementById("circle1");
 const fill = document.getElementById("secondary__logo__animate__fill");
 const stroke = document.getElementById("secondary__logo__animate__stroke");
+const acidGreenCX = document.getElementsByClassName(
+	"green-acid-gradient-transform-cx"
+);
+const acidGreenCY = document.getElementsByClassName(
+	"green-acid-gradient-transform-cy"
+);
+const acidGreenCR = document.getElementsByClassName(
+	"green-acid-gradient-transform-cr"
+);
 let startEnd = colorHex();
 let middle = colorHex();
 const dur = setDur(3);
+const acidGreenDur = setDur(6);
 
-cirlce.setAttribute("d", roundness(105, 105, 72));
-fill.setAttribute("values", `${startEnd};${middle};${startEnd}`);
-stroke.setAttribute("values", `${middle};${startEnd};${middle}`);
-fill.setAttribute("dur", dur);
-stroke.setAttribute("dur", dur);
+// cirlce.setAttribute("d", roundness(105, 105, 72));
+// fill.setAttribute("values", `${startEnd};${middle};${startEnd}`);
+// stroke.setAttribute("values", `${middle};${startEnd};${middle}`);
+// fill.setAttribute("dur", dur);
+// stroke.setAttribute("dur", dur);
+
+for (let i = 0; i < acidGreenCX.length; i++) {
+	acidGreenCX[i].setAttribute("values", "-10;0");
+	acidGreenCX[i].setAttribute("dur", acidGreenDur);
+	acidGreenCY[i].setAttribute("values", "690;950");
+	acidGreenCY[i].setAttribute("dur", acidGreenDur);
+	acidGreenCR[i].setAttribute("values", "90");
+	acidGreenCR[i].setAttribute("dur", acidGreenDur);
+}
