@@ -56,7 +56,7 @@ const acidGreenDur = setDur(6);
 // stroke.setAttribute("dur", dur);
 
 for (let i = 0; i < acidGreenCX.length; i++) {
-	acidGreenCX[i].setAttribute("values", "-10;0");
+	acidGreenCX[i].setAttribute("values", "-100;100");
 	acidGreenCX[i].setAttribute("dur", acidGreenDur);
 	acidGreenCY[i].setAttribute("values", "690;950");
 	acidGreenCY[i].setAttribute("dur", acidGreenDur);

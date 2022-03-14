@@ -103,6 +103,8 @@ td {
 	height: 80vw;
 	max-width: 800px;
 	max-height: 800px;
+	animation: rotation 10s linear infinite;
+	overflow: scroll;
 }
 
 .secondary__logo {
